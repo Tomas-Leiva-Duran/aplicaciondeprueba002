@@ -15,6 +15,11 @@ export class CalculadoraPage implements OnInit {
   Numero1: number = 0
   Numero2: number = 0
 
+  Suma: Number = 0
+  Resta: Number = 0
+  Multiplicación: Number = 0
+  Division: Number = 0
+
   numeros = {
     Numero1:0,
     Numero2:0
