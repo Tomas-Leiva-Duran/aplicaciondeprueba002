@@ -1,6 +1,9 @@
+<ion-back-button>Atras</ion-back-button>
 <ion-header [translucent]="true">
+  <ion-back-button>Atras</ion-back-button>
   <ion-toolbar>
-    <ion-title>calculadora</ion-title>
+    <ion-back-button>Atras</ion-back-button>
+    <ion-title>→Calculadora mini</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -10,19 +13,65 @@
       <ion-title size="large">calculadora</ion-title>
     </ion-toolbar>
   </ion-header>
-  <div>
-    <ion-button expand="block" (click)="openModal()">Abrir modal</ion-button>
-    
-  </div>
+  
   <div>
     <ion-card id="primera-parte">
       <ion-card-header>
-        <ion-card-title>Card Title</ion-card-title>
-        <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+        <ion-card-title>Calculadora</ion-card-title>
+        <ion-card-subtitle>ingrese 2 numeros</ion-card-subtitle>
       </ion-card-header>
     
       <ion-card-content>
-        Here's a small text description for the card content. Nothing more, nothing less.
+        <div>
+          <ion-input>
+            <ion-item>
+              <ion-input label="Primer numero" placeholder="#"></ion-input>
+            </ion-item>
+          </ion-input>
+        </div>
+        <div>
+          <ion-input>
+            <ion-item>
+              <ion-input label="Segundo numero" placeholder="#"></ion-input>
+            </ion-item>
+          </ion-input>
+        </div>
+        <div>
+          
+          <ion-button expand="full">Calcular</ion-button>
+
+        </div>
+        
+      </ion-card-content>
+      
+    </ion-card>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Resultados</ion-card-title>
+        
+      </ion-card-header>
+    
+      <ion-card-content>
+        <div>
+          <ion-input>
+
+          </ion-input>
+        </div>
+        <div>
+          <ion-input>
+            
+          </ion-input>
+        </div>
+        <div>
+          <ion-input>
+            
+          </ion-input>
+        </div>
+        <div>
+          <ion-input>
+            
+          </ion-input>
+        </div>
       </ion-card-content>
     </ion-card>
   </div>

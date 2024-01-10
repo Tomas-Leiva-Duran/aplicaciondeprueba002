@@ -11,10 +11,30 @@ import { IonicModule } from '@ionic/angular';
   imports: [IonicModule, CommonModule, FormsModule]
 })
 export class CalculadoraPage implements OnInit {
+  
+  Numero1: number = 0
+  Numero2: number = 0
 
-  constructor() { }
+  numeros = {
+    Numero1:0,
+    Numero2:0
+  }
+
+  constructor() { 
+
+   /*   calcular() {
+        console.log("Numero1= " ,this.Numero1)
+        console.log("Numero2= " ,this.Numero2)
+      }
+    */
+  }
 
   ngOnInit() {
   }
 
 }
+/*
+function calcular() {
+  throw new Error('Function not implemented.');
+}
+*/

@@ -1,18 +1,18 @@
 ion-content.cuerpo-calcu{
     --background: #00fff2;
-    --color: #ffffff;
+    --color: #000000;
     --padding-top: 20px;
     --padding-bottom: 20px;
     --padding-left: 20px;
     --padding-right: 20px;
     --ion-background-color: #000000;
-    --ion-color: #ffffff;
+    --ion-color: #ff0000;
     --ion-padding-top: 20px;
     --ion-padding-bottom: 20px;
     --ion-padding-left: 20px;
     --ion-padding-right: 20px;
     background: #000000;
-    color: #ffffff;
+    color: #005272;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -26,6 +26,18 @@ ion-content.cuerpo-calcu{
 }
 
 ion-card.primera-parte{
+    --background: #000;
+    --color: #006152;
+  }
+  
+  ion-card-title {
+    --color: #52ffe4;
+  }
+  
+  ion-card-subtitle {
+    --color: #d1fff8;
+  }
+  ion-card {
     --background: #000;
     --color: #9efff0;
   }
